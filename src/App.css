@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.todo-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.todo-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3a445e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  width: 550px;
+}
+
+.todo-card-title {
+  font-size: 40px;
+  color: #f7f9fc;
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.todo-card-input {
+  font-size: 16px;
+  color: #696a6b;
+  background-color: #ffffff;
+  height: 45px;
+  width: 380px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.todo-card-button {
+  font-size: 16px;
+  color: #ffffff;
+  height: 45px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: #576894;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.todo-item-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
